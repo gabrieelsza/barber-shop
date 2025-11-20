@@ -11,7 +11,8 @@ Carrossel Interativo: Utiliza Swiper.js para apresentação de slides
 Interface Limpa: Design moderno e profissional para barbearia
 Navegação Fluida: Ícones e controles intuitivos com Font Awesome
 
-📁 Estrutura do Projeto
+📁 Estrutura do Projet
+***
 text
 ├── index.html              # Arquivo HTML principal
 ├── script.js               # JavaScript customizado (navegação mobile)
