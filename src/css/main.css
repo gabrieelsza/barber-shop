@@ -1,0 +1,140 @@
+@import url(./main.css);
+
+.elements { 
+    width: 1732px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    background-size: cover;
+    
+    ul {
+        display: flex;
+        align-items: center;
+        padding: 1rem 2rem;
+        overflow: hidden;
+        gap: 2.2rem;
+        
+        li {
+            list-style: none;
+        }
+        
+        li img {
+            width: 40px;
+        }
+    }
+    
+    
+}
+
+.location {
+    text-align: center;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    
+    .info-store {
+        padding: 2rem;
+        p {
+            color: var(--color-white);
+            font-size: 1.5rem;
+            font-weight: 300;
+            margin-top: 1rem;
+        }
+        
+        span {
+            color: var(--color-white);
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-top: 2rem;
+            font-family: var(--fonte-subtitulos);
+        }
+    }
+    
+
+    .location-desk-tablet {
+        display: none;
+    }
+}
+
+.elementss::-webkit-scrollbar {
+    display: none;
+}
+
+.elementss {
+    background-image: url(/src/image/bg-header.png);
+    margin: 50px auto;
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    
+    
+    .group {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1em;
+        animation: spin 7s infinite linear;
+        padding-right: 1em;
+
+        & img {
+            flex: 0 0 5em;
+            height: 5em;
+            padding: 1em;   
+            text-align: center;
+            align-content: center;
+            width: 100px;
+        }
+    }
+
+    .group-desk {
+        display: none;
+    }
+}
+
+.avaliacaos {
+    padding: 2rem 4%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+    h4 {
+        font-family: var(--fonte-subtitulos);
+        font-size: 2rem;
+        font-weight: 500;
+        color: var(--color-white);
+    }
+
+    .avaliacao {
+        display: flex;
+        padding: 1rem;
+        border: 1px solid var(--color-white);
+
+        .avaliacao-img {
+            display: none;
+        }
+        
+        .comentario {
+            color: var(--color-white);
+            font-size: 1.125rem;
+        }
+
+        .user {
+            margin-top: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+
+
+            .name {
+                font-size: 1rem;
+                font-weight: 300;
+                color: var(--color-white);
+            }
+        }
+    }
+}
+
+@keyframes spin {
+    from{ translate: 0;}
+    to {translate: -100%;}
+}
+

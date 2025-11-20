@@ -1,0 +1,28 @@
+footer {
+    background-image: url(/src/image/bg-header.png);
+    background-size: cover;
+    text-align: center;
+    padding: 2rem 0;
+
+    h3 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+
+        gap: 1rem;
+        list-style: none;
+
+        li {
+            color: var(--color-white);
+        }
+
+        & i {
+            font-size: 1.25rem;
+        }
+    
+    }
+}

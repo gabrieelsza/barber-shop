@@ -1,0 +1,80 @@
+@import url(./global.css);
+
+header {
+    background-image: url(/src/image/bg-header.png);
+    background-size: cover;
+    padding: 12px 4%;
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+        width: 80px;
+        }
+
+        ul {
+        display: none;
+        list-style: none;
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 100%;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        padding: 1rem;
+        background-image: url(/src/image/bg-header.png);
+
+        &.show {
+            display: flex;
+
+            #home {
+            margin-top: 2rem;
+            }
+        }
+
+        li {
+            text-align: center;
+
+            a {
+            color: var(--color-secundaria);
+            text-decoration: none;
+            font-family: var(--fonte-subtitulos);
+            font-weight: 500;
+            font-size: 1rem;
+            transition: all 3s ease;
+
+            &:hover {
+                color: var(--color-white);
+                border-bottom: 1px solid var(--color-white);
+            }
+            }
+        }
+        }
+
+        .btn-default {
+        display: none;
+        }
+    }
+    }
+
+    #home {
+    padding: 1rem;
+    margin-bottom: 2rem;
+
+    .home-title {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        max-width: 300px;
+    }
+
+    .home-title img {
+        width: 300px;
+    }
+
+    .home-elements {
+        display: none;
+    }
+}

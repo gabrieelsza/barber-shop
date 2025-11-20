@@ -1,0 +1,273 @@
+@media (min-width: 796px) {
+header {
+        .navbar {
+        .btn-mobile {
+            display: none;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            position: static;
+            gap: 1rem;
+            width: auto;
+            padding: 0;
+            background: none;
+        }
+
+        .btn-default {
+            display: block;
+        }
+        }
+
+        #home {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .home-elements {
+            display: flex;
+        }
+
+        .home-elements img {
+            width: 100px;
+            position: absolute;
+        }
+
+        .home-element-1 {
+            position: absolute;
+            top: 100px;
+            right: 160px;
+        }
+
+        .home-element-2 {
+            position: absolute;
+            top: 100px;
+            right: 290px;
+        }
+        .home-element-3 {
+            position: absolute;
+            top: 280px;
+            right: 70px;
+        }
+        .home-element-4 {
+            position: absolute;
+            top: 130px;
+            right: 90px;
+        }
+        .home-element-5 {
+            position: absolute;
+            top: 230px;
+            right: 190px;
+        }
+        .home-element-6 {
+            position: absolute;
+            top: 280px;
+            right: 340px;
+        }
+        .home-element-7 {
+            position: absolute;
+            top: 370px;
+            right: 220px;
+        }
+        .home-element-8 {
+            position: absolute;
+            top: 440px;
+            right: 90px;
+        }
+        .home-element-9 {
+            position: absolute;
+            top: 440px;
+            right: 300px;
+        }
+        }
+}
+
+main {    
+    .services {
+        .service {
+            display: flex;
+            flex-direction: row;
+
+            gap: 3rem;
+
+            .service-image {
+                display: flex;
+            }
+
+            .service-description {
+                display: flex;
+            }
+        }
+
+        .service-desk-tablet {
+            display: flex;
+            flex-direction: row-reverse;
+
+        }
+    }
+}
+}
+
+@media (min-width: 1024px) {
+    nav,
+    #home {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+
+    header {
+        .navbar {
+        .btn-mobile {
+            display: none;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            position: static;
+            gap: 1rem;
+            width: auto;
+            padding: 0;
+            background: none;
+        }
+
+        .btn-default {
+            display: block;
+        }
+        }
+
+        #home {
+        margin-top: 2rem;
+
+        .home-elements {
+            display: block;
+        }
+
+        .home-elements img {
+            width: 100px;
+        }
+
+        .home-element-1 {
+            position: absolute;
+            top: 130px;
+            right: 470px;
+        }
+
+        .home-element-2 {
+            position: absolute;
+            top: 130px;
+            right: 780px;
+        }
+
+        .home-element-3 {
+            position: absolute;
+            top: 280px;
+            right: 620px;
+        }
+
+        .home-element-4 {
+            position: absolute;
+            top: 280px;
+            right: 350px;
+        }
+
+        .home-element-6 {
+            position: absolute;
+            top: 280px;
+            right: 880px;
+        }
+
+        .home-element-8 {
+            position: absolute;
+            top: 440px;
+            right: 470px;
+        }
+        .home-element-9 {
+            position: absolute;
+            top: 440px;
+            right: 780px;
+        }
+        }
+    }
+
+    .services {
+        display: flex;
+        align-items: center;
+                
+        .service {
+            display: flex;
+            max-width: 700px;
+            gap: 2rem;
+        }
+        
+        .service-desk {
+            display: flex;
+            max-width: 700px;
+            gap: 2rem;
+            flex-direction: row-reverse;
+        }
+
+        .service-image img {
+            width: 250px;
+            height: 300px;
+        }
+    
+    }
+
+    .location-mobile {
+        display: none;
+    }
+
+    .location {
+        text-align: center;
+
+        .info-store {
+            .location-desk-tablet {
+                display: block;
+                margin-top: 2rem;
+            }    
+        }
+    }
+    
+    .elementss {
+        display: flex;
+
+        .group {
+            display: flex;    
+            justify-content: center;
+            animation: spin 150s infinite linear;
+            padding-right: 2rem;
+            
+            & img {
+                height: 5em;
+                padding: 1em;   
+                text-align: center;
+                align-content: center;
+                width: 100px;
+                margin-left: 5rem;
+            }
+        }
+
+        .group-desk {
+            display: block;
+        }
+    }
+
+    .avaliacaos {
+        display: flex;
+        max-width: 850px;
+        margin: 0 auto;
+
+        img {
+            max-width: 450px;
+        }
+        .avaliacao {
+
+            .avaliacao-img {
+                display: flex;
+            }
+        }
+
+    }
+}
